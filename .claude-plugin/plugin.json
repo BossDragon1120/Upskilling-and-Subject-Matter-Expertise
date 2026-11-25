@@ -1,0 +1,11 @@
+{
+  "name": "upskilling",
+  "description": "Skills for learning in public: researched deep-dive briefs on AI, tech and business topics, feeding course and topic notes.",
+  "version": "0.1.0",
+  "author": {
+    "name": "BossDragon1120"
+  },
+  "repository": "https://github.com/BossDragon1120/Upskilling-and-Subject-Matter-Expertise",
+  "license": "MIT",
+  "keywords": ["learning", "research", "deep-dive", "ai", "tech", "business"]
+}

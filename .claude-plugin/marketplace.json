@@ -1,0 +1,13 @@
+{
+  "name": "upskilling",
+  "owner": {
+    "name": "BossDragon1120"
+  },
+  "plugins": [
+    {
+      "name": "upskilling",
+      "source": "./",
+      "description": "Deep-dive briefs and learning skills for AI, tech and business."
+    }
+  ]
+}

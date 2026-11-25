@@ -9,6 +9,8 @@ courses/<course>/NN-<module>.md   notes from each course module
 topics/<ai|tech|business>/        self-directed deep dives
 glossary/<term>.md                one file per term, in plain language
 templates/                        module-notes.md and term.md
+skills/                           Claude skills for learning (see below)
+.claude-plugin/                   plugin manifest, so the skills install from this repo
 ```
 
 Every note starts with a small header (`type`, `subject`, `status`, `video`) so notes can be sorted, searched and picked up automatically.
@@ -28,6 +30,18 @@ What the intake agent relies on:
 - It only picks up notes marked **`status: done`** whose `video` is `none` or `idea`.
 - Each bullet under **`## Teachable moments`** is one possible video. Each **glossary term** is one possible AI Vocab video.
 - After a video is made, the note's `video` field moves to `scripted` → `posted`, so nothing gets made twice.
+
+## Skills
+
+| Skill | What it does |
+|---|---|
+| [`topic-deep-dive-brief`](skills/topic-deep-dive-brief/SKILL.md) | A researched 5–10 page brief that takes you from zero to conversant on a tech or business topic: news, trends, companies, earnings, startups, people, events and numbers |
+
+**Install in Claude Code:**
+```
+/plugin marketplace add BossDragon1120/Upskilling-and-Subject-Matter-Expertise
+/plugin install upskilling@upskilling
+```
 
 ## Currently learning
 - _Add courses here as you start them._
